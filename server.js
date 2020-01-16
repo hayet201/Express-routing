@@ -9,7 +9,7 @@ app.get('/',(req,res)=>{
     if((date >= 18)&&(date<=17))
     res.sendFile(__dirname+'/Public/home.html')
     else
-    res.send('out-of-service.html')
+    res.send('out-of-service')
 })
 
 
